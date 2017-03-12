@@ -9,4 +9,4 @@ Pulling ticker names from the Nasdaq website, we store all nasdaq and Nyse stock
 the stocks to those having full data over the range we're interested in (2008-2016 Post recession period). Using
 a convex optimization package (Cvxopt) we implement a quadratic programming model to select an optimal portfolio 
 over the periods in consideration. We then extend the analysis to allow for borrowing, to include transaction 
-costs, and to allow for periodic rebalancing at multiple frequencies.
+costs, and to allow for periodic rebalancing at multiple frequencies (Weekly, Monthly, Quarterly, Annually).
